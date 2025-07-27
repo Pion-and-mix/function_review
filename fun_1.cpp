@@ -66,8 +66,6 @@ private:
     
     string_view db_name_;
     int db_connection_timeout_;
-    bool db_allow_exceptions_;
-    DBLogLevel db_log_level_;
     
     DBConnector connector;
     DBHandler db;
